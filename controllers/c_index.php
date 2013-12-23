@@ -12,6 +12,7 @@ class index_controller extends base_controller {
 	/*-------------------------------------------------------------------------------------------------
 	Accessed via http://localhost/index/index/
 	-------------------------------------------------------------------------------------------------*/
+	/*--------------Testing Index-*/
 	public function index() {	
 		
 		# Any method that loads a view will commonly start with this
@@ -19,7 +20,7 @@ class index_controller extends base_controller {
 			$this->template->content = View::instance('v_index_index');
 			
 		# Now set the <title> tag
-			$this->template->title = "Hello World";
+			$this->template->title = "Assignments Tracker";
 	
 		# CSS/JS includes
 			/*
@@ -32,8 +33,11 @@ class index_controller extends base_controller {
 	      					     		
 		# Render the view
 			echo $this->template;
+			 # Get and print the current timestamp
 
 	} # End of method
 	
 	
 } # End of class
+
+

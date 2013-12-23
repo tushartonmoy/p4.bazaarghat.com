@@ -1,0 +1,47 @@
+@header-font: Verdana; //setting font for header
+@hcolor: #333333; //setting the heading color variable
+@shadow: #cfcfcf; //shadow color
+
+.gborder(@width: 1px, @type:solid, @color: #bbb){
+    border:@arguments;
+} //this will create border to be implemented to selected classes
+
+h1, h2, h3, h4 {
+    font-family: @header-font;
+}
+
+.box-shadow(@style, @c) when (iscolor(@c)) {
+  box-shadow:         @style @c;
+  -webkit-box-shadow: @style @c;
+  -moz-box-shadow:    @style @c;
+} //setting up box shadow class to be used later in jumbotron
+
+.jumbotron h1, .col-lg-4 h2 {
+color: @hcolor; //implementing the heading color
+}
+
+.col-lg-4 {
+	.gborder; //implementing the border
+}
+.padtop {
+	padding-top:@t; //adds padding top value using the toppad variable
+	@t:15px;
+}
+
+.navbar-right {
+	color:lighten(@hcolor,50%); //lighten the header color by 50% and use it
+	.padtop; //implements the properties of padtop class specified above
+	}
+
+p {
+	font-size: @f; //set the font size to the value of f variable
+	@f:1em; //setting the value of f variable
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+border-color: saturate(@hcolor,10%); //saturates hcolor and uses it for the specified classes
+}
+
+.jumbotron { 
+	.box-shadow (0px 1px 10px 1px,@shadow); //Adding box shadow to jumbotron
+}

@@ -1,0 +1,43 @@
+2013-12-22 23:04:18 - INFO --> -------------------------- 
+2013-12-22 23:04:18 - INFO --> Controller/Method: users/p_signup 
+2013-12-22 23:04:18 - INFO --> From: Assignments Tracker (webmaster@sample-app.com) 
+2013-12-22 23:04:18 - INFO --> To: Assignments Tracker (webmaster@myapp.com),  
+2013-12-22 23:04:18 - INFO --> CC:  
+2013-12-22 23:04:18 - INFO --> BCC:  
+2013-12-22 23:04:18 - INFO --> Subject: Assignments Tracker SQL Error 
+2013-12-22 23:04:18 - INFO --> Body: <h2>SQL Error</h2>Access denied for user 'bazaargh_p4'@'localhost' (using password: YES)<h2>Query History</h2><h2>Routed Controller/Method:</h2> users/p_signup<br/><h2>Cookies</h2><pre>Array
+(
+    [PHPSESSID] => ghuh6kbolhnor38or2o1s89od2
+)
+</pre><h2>POST</h2><pre>Array
+(
+    [first_name] => Arab Ma 
+2013-12-22 23:04:50 - INFO --> -------------------------- 
+2013-12-22 23:04:50 - INFO --> Controller/Method: users/p_signup 
+2013-12-22 23:04:50 - INFO --> From: Assignments Tracker (webmaster@sample-app.com) 
+2013-12-22 23:04:50 - INFO --> To: Assignments Tracker (webmaster@myapp.com),  
+2013-12-22 23:04:50 - INFO --> CC:  
+2013-12-22 23:04:50 - INFO --> BCC:  
+2013-12-22 23:04:50 - INFO --> Subject: Assignments Tracker SQL Error 
+2013-12-22 23:04:50 - INFO --> Body: <h2>SQL Error</h2>Access denied for user 'bazaargh_p4'@'localhost' (using password: YES)<h2>Query History</h2><h2>Routed Controller/Method:</h2> users/p_signup<br/><h2>Cookies</h2><pre>Array
+(
+    [PHPSESSID] => ghuh6kbolhnor38or2o1s89od2
+)
+</pre><h2>POST</h2><pre>Array
+(
+    [first_name] => Mohamma 
+2013-12-22 23:07:49 - INFO --> -------------------------- 
+2013-12-22 23:07:49 - INFO --> Controller/Method: users/p_login 
+2013-12-22 23:07:49 - INFO --> From: Assignments Tracker (webmaster@sample-app.com) 
+2013-12-22 23:07:49 - INFO --> To: Assignments Tracker (webmaster@myapp.com),  
+2013-12-22 23:07:49 - INFO --> CC:  
+2013-12-22 23:07:49 - INFO --> BCC:  
+2013-12-22 23:07:49 - INFO --> Subject: Assignments Tracker SQL Error 
+2013-12-22 23:07:49 - INFO --> Body: <h2>SQL Error</h2>Access denied for user 'bazaargh_p4'@'localhost' (using password: YES)<h2>Query History</h2><h2>Routed Controller/Method:</h2> users/p_login<br/><h2>Cookies</h2><pre>Array
+(
+    [PHPSESSID] => ghuh6kbolhnor38or2o1s89od2
+)
+</pre><h2>POST</h2><pre>Array
+(
+    [email] => rez@rez.com
+  

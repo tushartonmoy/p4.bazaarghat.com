@@ -1,11 +1,3 @@
-<p>
-	Hello World! You have successfully spawned a new application.
-</p>
-
-<p>
-	This message is being triggered via the c_index.php controller, within the index() method.
-</p>
-
-<p>
-	<strong>Since everything is in working order, you should now delete <?php echo APP_PATH?>diagnostics.php</strong>
-</p>
+<h2>Welcome to <?=APP_NAME?><?php if($user) echo ', '.$user->first_name; ?>!</h2>
+<p>Assignments Tracker helps students use their time more efficiently by enabling them to store all their project and assignment details at one place!<br>
+Students can store important information related to assignments such as topic, requirements, deadlines, etc and also review their progress via the easy-to-use web interface.
